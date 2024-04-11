@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Basic&family=Knewave&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rowdies:wght@300;400;700&display=swap');
+.title2{
+    display: flex;
+    justify-content: center;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+}
+
+.div1 {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 4px 4px rgba(26, 134, 189, 0.3);
+    
+
+}
+
+.custom-form {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 70px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .form-container {
+    background-image: url('../assets/logoser.png');
+    background-repeat: no-repeat;
+    background-position: center; /* Pour centrer l'image */
+  }
+  
+.form-group {
+    flex: 0 0 calc(50% - 10px);
+    margin-top: 20px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 40px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button-container {
+    text-align: center;
+  }
+  
+
+  .carte {
+    margin-top: 60px;
+    width: 100%;
+  }
